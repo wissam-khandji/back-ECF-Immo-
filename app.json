@@ -2,7 +2,9 @@
     "success_url": "/",
     "env": {
       "APP_ENV": "prod",
-      "APP_SECRET": {"generator": "secret"}    
+      "APP_SECRET": "f2521133b2c093b385a669e7a1e79c9c" ,
+      "CORS_ALLOW_ORIGIN": "https://sheltered-meadow-47573.herokuapp.com/",
+      "DATABASE_URL" : "mysql://lnldag35juwxgv4x:zmcg6sqzlvf4nlck@phtfaw4p6a970uc0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/afbjokqexdbt2lgz"
     }, 
     "buildpacks": [
       {
